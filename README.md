@@ -93,3 +93,41 @@
 ``` ID : (ป้อนรหัสนักศึกษา).```
 
 ``` GPA : (ป้อนเกรดเฉลี่ยนักศึกษา โดยมีทศนิยมสองหลัก).```
+
+
+using System;
+
+namespace lab_6
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+
+                Console.Write("Name :");
+                string val1 = Convert.ToString(Console.ReadLine());
+                
+                Console.Write("Lastname:");
+                string val2 = Convert.ToString(Console.ReadLine());
+                
+                Console.Write("ID:");
+                int val3 = Convert.ToInt32(Console.ReadLine());
+                
+                Console.Write("GPA:");
+                string val4 = Convert.ToString(Console.ReadLine());
+
+               
+                Console.WriteLine("Name " + val1);
+                Console.WriteLine("Lastname " + val2);
+                Console.WriteLine("ID " + val3);
+                Console.WriteLine("GPA " + val4);
+            
+        }
+    }
+}
+
+
+ผลที่ได้คือ 
+
+![](https://github.com/est160/LAB-06/blob/master/imgs/lab65.png?raw=true)
